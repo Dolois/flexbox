@@ -1,0 +1,44 @@
+body {
+	flex-direction: column;
+	font-size: 2vw;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	height: 45vh;
+	padding: 5%;
+}
+
+.entete {
+	background: #aaf9a1;
+	height: 10vh;
+	flex-grow: 1;
+	padding: 2vw 0vw 0vw 7vw;
+}
+
+.nav {
+	background: #f9cea1;
+    flex: 1;
+    padding: 2vw 0vw 0vw 2vw;
+}
+
+.article {
+	background: #fde6cd;
+	flex: 2;
+	padding: 2vw 0vw 0vw 2vw;
+}
+
+
+.aside {
+	background: #f9cea1;
+	flex: 1;
+	padding: 2vw 0vw 0vw 2vw;
+}
+
+.pied {
+	background: #aaf9a1;
+	height: 10vh;
+	flex-grow: 1;
+	padding: 2vw 0vw 0vw 7vw;
+}
